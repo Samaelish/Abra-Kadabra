@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100vh;
+}
+
+span{
+    transition: all 1.5s ease;
+    display: inline-block;
+    transform: translateY(-80px);
+    opacity: 0.1;
+}
+
+span.fade{
+    transform: translateY(0px);
+    opacity: 1;
+}
